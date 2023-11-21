@@ -1,5 +1,15 @@
-import { ReactComponent as TimescaleLogo } from "../assets/logo.svg";
+import { ChakraProvider, Divider } from "@chakra-ui/react";
+import { Header } from "./Header/Header";
+import { RecipientManager } from "./RecipientManager/RecipientManager";
 
-const App = () => <TimescaleLogo />;
+const App = () => {
+  return (
+    <ChakraProvider>
+      <Header />
+      <Divider />
+      <RecipientManager />
+    </ChakraProvider>
+  );
+};
 
 export default App;

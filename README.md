@@ -16,6 +16,7 @@ Use the included `recipientsData.json` file to populate the lists within the com
 ### Use cases
 
 As a user, I can
+
 - See the list of all available recipients. A recipient is either an email or a group of emails sharing the same company domain
 - Select an individual recipient or a company domain. When a company domain is selected, all emails with the domain are added to the selected recipients' list
 - Enter the name of a company into the autocomplete and select a recipient from the available suggestions
@@ -26,7 +27,7 @@ As a user, I can
 ### The rules
 
 - The component should have a simple and clean design
-- You can use a component library of your choice (we use Chakra UI) 
+- You can use a component library of your choice (we use Chakra UI)
 - The component should work in the latest Chrome on Mac OS
 - We don't expect a full test coverage, but a couple of unit tests would be nice to have
 - Fork the repo to your own account, make it public and send us the repo url when you are completed. We will
